@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+.laAnimacion{
+    animation-name: inicio ;
+    animation-duration: 7s;
+}
+.Pagina1{
+    display: block;
+    width: 99vw;
+    height: 99vh;
+}
+.Pagina2{
+    
+    display: none;
+    width: 99vw;
+    height: 99vh;
+}
+.Pagina3{
+    
+    display: none;
+    width: 99vw;
+    height: 99vh;
+}
+@keyframes inicio{
+    0%{
+        .Pagina1{
+            from{
+                display: block;
+            }
+            to{
+                display: none;
+            }
+        }
+    }
+    50%{
+        .Pagina2{
+            from{
+                display: block;
+            }
+            to{
+                display: none;
+            }
+        }
+    }
+    100%{
+        .Pagina3{
+            from{
+                display: block;
+            }
+            to{
+                display: none;
+            }
+        }
+    }
+}
