@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.todo{
+    background-image: url(../img/fondo\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    width: 99vw;
+    height: 99vh;
+    padding: 0%;
+    margin: 0%;
+}
+.lakjita{
+    margin: 0;
+    padding: 0;
+}
+.kjita{
+    position: absolute;
+    background-color: white;
+    width: 50vw;
+    height: 85vh;
+    border-radius: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+}
+p{
+    margin: 2vh;
+    color: #3f4141;
+}
+.media{
+    margin: 0%;
+    margin-bottom: 0.5vh;
+    color: #3f4141;
+}
+.logito{
+    width:5vw ;
+    height:9vh ;
+    margin-top: 3vh;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.bien{
+    font-size: 120px;
+    margin: 0%;
+    margin-top: 30px;
+    padding: 0%;
+    color: black;
+}
+.porfavor{
+    font-size: 55px;
+    margin-top: 2vh;
+    margin-bottom: 0;
+    color: #3f4141;
+}
+.RUsuario{
+   width: 35vw;
+   min-height: 10.5vh;
+   text-align: start;
+}
+.controles{
+    width: 35vw;
+    height: 6vh;
+    border-radius: 60px;
+}
+.RContraseña{
+   width: 35vw;
+   min-height: 10.5vh;
+   text-align: start;
+}
+.boton{
+    width: 17vw;
+    height: 6.3vh;
+    font-size: 60px;
+    border-radius: 10vh;
+    background-color:#ff741c ;
+    border:none;
+    color: white;
+    margin: 5vh;
+    margin-bottom: 2vh;
+}
+.problemitas{
+    font-size: 45px;
+}
