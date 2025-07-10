@@ -21,7 +21,7 @@ body{
     position: absolute;
     background-color: white;
     width: 45vw;
-    height: 70vh;
+    height: 50vh;
     border-radius: 200px;
     top: 50%;
     left: 50%;
@@ -31,15 +31,6 @@ body{
     align-items: center;
     font-size: 60px;
 }
-p{
-    margin: 2vh;
-    color: #3f4141;
-}
-.media{
-    margin: 0%;
-    margin-bottom: 0.5vh;
-    color: #3f4141;
-}
 .logito{
     width:5vw ;
     height:9vh ;
@@ -47,46 +38,28 @@ p{
     margin-bottom: 0%;
     padding-bottom: 0%;
 }
-.bien{
+.media{
+    margin: 0%;
+    margin-bottom: 0.5vh;
+    color: #3f4141;
+}
+.Bienvenida{
     font-size: 130px;
     margin: 0%;
-    margin-top: 30px;
     padding: 0%;
     color: black;
 }
-.porfavor{
-    font-size: 55px;
-    margin-top: 2vh;
-    margin-bottom: 0;
+.Adm{
+    font-size: 60px;
     color: #3f4141;
 }
-.RUsuario{
-   width: 30vw;
-   min-height: 10.5vh;
-   text-align: start;
+.textBienvenida{
+    margin-top: 1vh;
 }
-.controles{
-    width: 30vw;
-    height: 4vh;
-    font-size: 60px;
-    border-radius: 60px;
+.fotoPerfil{
+    width: 6vw;
+    height: 10vh;
 }
-.RContraseña{
-   width: 30vw;
-   min-height: 10.5vh;
-   text-align: start;
-}
-.boton{
-    width: 15vw;
-    height: 5vh;
-    font-size: 60px;
-    border-radius: 5vh;
-    background-color:#ff741c ;
-    border:none;
-    color: white;
-    margin: 5vh;
-    margin-bottom: 2vh;
-}
-.problemitas{
-    font-size: 45px;
+.nombreUsuario{
+    margin-top: 65px;
 }
