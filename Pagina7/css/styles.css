@@ -68,7 +68,7 @@ body{
 }
 .imgañadir{
     width: 3vh;
-    margin-left: 16vh;
+    margin-left: 21vh;
     margin-right: 1vh;
 }
 .imgresetear{
@@ -115,13 +115,13 @@ body{
 .PANEL{
     font-size: 4vh;
     margin: 0%;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 .panel{
     color: #3f4141;
     margin: 0%;
-    margin-top: 4vh;
-    margin-bottom: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     font-size: 2.6vh;
 }
 .GridPanel{
@@ -130,6 +130,7 @@ body{
     width: 100%;
     align-items: center;
     place-content: center;
+    font-size: 2.4vh;
 }
 .c9{
     display: flex;
@@ -148,6 +149,7 @@ body{
     margin-right: 2vh;
     height: 7vh;
     border:0.1vh solid #3f4141;
+    color: #3f4141;
     border-radius: 2.4vh;
     margin-bottom: 1.6vh;
     grid-area: 2/1/3/10;
@@ -162,6 +164,7 @@ body{
     margin-right: 2vh;
     height: 7vh;
     border:0.1vh solid #3f4141;
+    color: #3f4141;
     border-radius: 2.4vh;
     margin-bottom: 1.6vh;
     grid-area: 3/1/4/10;
@@ -176,6 +179,7 @@ body{
     margin-right: 2vh;
     height: 7vh;
     border:0.1vh solid #3f4141;
+    color: #3f4141;
     border-radius: 2.4vh;
     margin-bottom: 1.6vh;
     grid-area: 4/1/5/10;
@@ -190,6 +194,7 @@ body{
     margin-right: 2vh;
     height: 7vh;
     border:0.1vh solid #3f4141;
+    color: #3f4141;
     border-radius: 2.4vh;
     margin-bottom: 1.6vh;
     grid-area: 5/1/6/10;
@@ -204,6 +209,7 @@ body{
     margin-right: 2vh;
     height: 7vh;
     border:0.1vh solid #3f4141;
+    color: #3f4141;
     border-radius: 2.4vh;
     margin-bottom: 1.6vh;
     grid-area: 6/1/7/10;
@@ -218,6 +224,7 @@ body{
     margin-right: 2vh;
     height: 7vh;
     border:0.1vh solid #3f4141;
+    color: #3f4141;
     border-radius: 2.4vh;
     margin-bottom: 1.6vh;
     grid-area: 7/1/8/10;
@@ -238,4 +245,67 @@ body{
 }
 .imgrayitas{
     width: 3vh;
+}
+.portj{
+    display: flex;
+    justify-content: center;
+    width: 10vh;
+    text-align: center
+}
+.indicador{
+    width: 28vh;
+    text-align: start;
+}
+.Descripcion{
+    width: 26vh;
+    text-align: start;
+}
+.Categoria{
+    width: 15vh;
+    text-align: center;
+}
+.fehai{
+    width: 20vh;
+    text-align: center;
+}
+.fechaf{
+    width: 28vh;
+    text-align: center;
+}
+.formula{
+    width: 16vh;
+    text-align: center;
+}
+.Freuencia{
+    width: 16vh;
+    text-align: center;
+}
+.area{
+    width: 20vh;
+    text-align: center;
+}
+#movi{
+    margin-left: 2vh;
+}
+#movi2{
+    margin-left: 1vh;
+}
+#movi3{
+    margin-left: 0vh;
+}
+#movi4{
+    margin-left: 0vh;
+}
+#movi5{
+    margin-left: 0vh;
+}
+#movi6{
+    margin-left: 0vh;
+}
+#movi7{
+    margin-left: 0vh;
+}
+#movi8{
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
