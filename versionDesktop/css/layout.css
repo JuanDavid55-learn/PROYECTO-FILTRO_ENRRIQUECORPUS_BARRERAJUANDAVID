@@ -2,6 +2,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: var(--font-cuerpo);
 }
 
 body{
@@ -19,9 +20,10 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
 }
 
-/*inicio de sesion*/
+/*intro*/
 .logoKario{
     display: flex;
     height: 11rem;
@@ -30,24 +32,90 @@ body{
     z-index: 2;
 }
 
-.inicioDeSesion {
+/*iniciar sesion*/
 
+.logoMedia {
+    width: 6rem;
+    height: 8rem;
+}
+
+.inicioDeSesion {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 48.6rem;
     height: 37.5rem;
     border-radius: 67px;
     justify-items: center;
-    opacity: 0;
-    position: absolute;
+    text-align: center;
+    opacity: 1;
+    position: relative;
     z-index: 2;
+    align-content: center;
+}
+
+.contenedorDeIS{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.contenedorDeIS h2 {
+    font-size: var(--font-size-titulo);
+}
+
+.contenedorDeIS p {
+    font-family: var(--font-light);
+}
+
+.infoLogin{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.parrafo1{
+    text-align: center;
+    font-size: var(--font-size-cuerpo);
+}
+
+.formulario{
+    align-items: center;
+   
+}
+
+.usuarioYContrasena{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .usuarioYContrasena input {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid var(--color-font-2);
-      border-radius: 6px;}
+    display: flex;
+    flex-direction: column;
+    width: 35rem;   
+    height: 2rem;
+    border: 1px solid var(--color-font-2);
+    border-radius: 0.8rem;
+}
 
 
 
+.casilla {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.casilla label {
+    font-family: var(--font-light);
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+}
+
+.asistenciaTecnica{
+    font-size: var(--font-size-light);
+}

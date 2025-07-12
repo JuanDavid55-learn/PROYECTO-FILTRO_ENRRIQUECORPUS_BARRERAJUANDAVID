@@ -1,0 +1,13 @@
+.cajaBoton{
+    margin-top: 0.7rem;
+}
+
+.boton{
+    width:16rem;
+    height: 3rem;
+    font-size: 2vh;
+    border-radius: 5vh;
+    background-color:var(--color-principal) ;
+    border:none;
+    color: var(--color-fondo1);
+}
