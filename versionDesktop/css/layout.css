@@ -1,0 +1,56 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #000000;
+}
+
+
+.contenedorDePagina{
+    display: flex;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logoKario{
+    display: flex;
+    height: 11rem;
+    width: 12rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.inicioDeSesion {
+
+    background-color: white;
+    width: 48.6rem;
+    height: 37.5rem;
+    border-radius: 67px;
+
+    /*display: flex;
+    flex-direction: column;*/
+    justify-items: center;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+  
+}
+
+.usuarioYContrasena input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid var(--color-font-2);
+      border-radius: 6px;}
+
+
+

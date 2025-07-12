@@ -1,0 +1,17 @@
+:root{
+
+    --color-principal: #ff6f2c ;
+    --color-secundario: #D9D9D9;
+    --color-fondo1: #ffffff;
+    --color-fondo2: #000000 ;
+    --color-font-1: #C2C2C2;
+    --color-font-2: #6D6C6C;
+    --font-titulo:'Myriad Pro Bold' ;
+    --font-cuerpo:'Myriad Pro Regular';
+    --font-light: 'Myriad Pro Light';
+
+    --font-size-titulo: 2.5rem;
+    --font-size-cuerpo: 1.5rem ;
+    --font-size-light: 1.2rem;
+    
+}

@@ -1,0 +1,24 @@
+.logoKario{
+    animation: loading 2s ;
+    animation-fill-mode: both;
+
+}
+
+.inicioDeSesion{
+    animation: iniciarSesion 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+      0%   { opacity: 1; }
+      50%  { opacity: 0; }
+      99%  { opacity: 1; }
+      100% { opacity: 0; }
+
+    }
+
+@keyframes iniciarSesion {
+     to { opacity: 1; }
+}
+
