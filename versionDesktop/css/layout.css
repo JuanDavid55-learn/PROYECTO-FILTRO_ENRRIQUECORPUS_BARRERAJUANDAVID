@@ -1,4 +1,4 @@
-
+/*DOM */
 *{
     padding: 0%;
     margin: 0%;
@@ -21,6 +21,7 @@ body{
     margin: 0 auto;
 }
 
+/*inicio de sesion*/
 .logoKario{
     display: flex;
     height: 11rem;
@@ -35,14 +36,10 @@ body{
     width: 48.6rem;
     height: 37.5rem;
     border-radius: 67px;
-
-    /*display: flex;
-    flex-direction: column;*/
     justify-items: center;
     opacity: 0;
     position: absolute;
     z-index: 2;
-  
 }
 
 .usuarioYContrasena input {
