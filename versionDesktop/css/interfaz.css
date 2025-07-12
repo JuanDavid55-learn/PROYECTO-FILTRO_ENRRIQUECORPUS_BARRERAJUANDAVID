@@ -1,13 +1,7 @@
-@font-face {
-    font-family: Myrad_pro;
-    src: url(../MyradPro/elquevoyausar.ttf);
+.contenedorInterfaz {
+    display: none
 }
-*{
-    font-family: Myrad_pro;
-}
-body{
-    background-color: black;
-}
+
 .todooo{
     background-color: white;
     width: 99vw;

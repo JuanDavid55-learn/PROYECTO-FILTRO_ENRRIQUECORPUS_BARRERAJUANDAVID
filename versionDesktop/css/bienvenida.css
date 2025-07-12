@@ -1,24 +1,6 @@
-@font-face {
-    font-family: Myrad_pro;
-    src: url(../MyradPro/elquevoyausar.ttf);
-}
-*{
-    font-family: Myrad_pro;
-}
-body{
-    background-color: black;
-    text-align: center;
-}
-.todo{
-    background-image: url(../img/fondo\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    width: 99vw;
-    height: 99vh;
-    padding: 0%;
-    margin: 0%;
+.contenedorBienvenida {
+    display: none;
+
 }
 .lakjita{
     margin: 0;
