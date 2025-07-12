@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Myrad_pro;
+    src: url(../MyradPro/elquevoyausar.ttf);
+}
+*{
+    font-family: Myrad_pro;
+}
 body{
     background-color: black;
 }
@@ -254,6 +261,7 @@ body{
 }
 .indicador{
     width: 28vh;
+    margin-left: 1vh;
     text-align: start;
 }
 .Descripcion{

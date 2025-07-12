@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Myrad_pro;
+    src: url(../MyradPro/elquevoyausar.ttf);
+}
+*{
+    font-family: Myrad_pro;
+}
 body{
     background-color: black;
     text-align: center;
@@ -21,19 +28,18 @@ body{
     position: absolute;
     background-color: white;
     width: 45vw;
-    height: 50vh;
-    border-radius: 200px;
+    height: 60vh;
+    border-radius: 8vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 60px;
+    font-size: 2vh;
 }
 .logito{
-    width:5vw ;
-    height:9vh ;
+    height: 8vh;
     margin-top: 3vh;
     margin-bottom: 0%;
     padding-bottom: 0%;
@@ -44,13 +50,15 @@ body{
     color: #3f4141;
 }
 .Bienvenida{
-    font-size: 130px;
+    font-size: 5vh;
     margin: 0%;
     padding: 0%;
     color: black;
 }
 .Adm{
-    font-size: 60px;
+    margin-bottom: 5vh;
+    margin: 0%;
+    font-size: 2.5vh;
     color: #3f4141;
 }
 .textBienvenida{
@@ -58,8 +66,8 @@ body{
 }
 .fotoPerfil{
     width: 6vw;
-    height: 10vh;
 }
 .nombreUsuario{
-    margin-top: 65px;
+    margin: 2vh;
+    margin-top: 2vh;
 }
