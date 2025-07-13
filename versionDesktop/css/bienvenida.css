@@ -1,55 +1,49 @@
 .contenedorBienvenida {
-    display: none;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    font-family: var(--font-cuerpo);
+   
+}
 
-}
-.lakjita{
-    margin: 0;
-    padding: 0;
-}
-.kjita{
-    position: absolute;
-    background-color: white;
-    width: 45vw;
-    height: 60vh;
+.bienvenida{
+
+    background-color: var(--color-fondo1);
+    width: 48.6rem;
+    height: 30rem;
     border-radius: 8vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 2vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2vh;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
 }
-.logito{
-    height: 8vh;
-    margin-top: 3vh;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+
+.logoMedia2 { 
+    width: 13vh;
+    height:12vh;
 }
-.media{
-    margin: 0%;
-    margin-bottom: 0.5vh;
-    color: #3f4141;
-}
-.Bienvenida{
+
+.Bienvenida1{
+    display: flex;
+    flex-direction: column;
     font-size: 5vh;
-    margin: 0%;
-    padding: 0%;
-    color: black;
+    justify-items: center;
+    align-content: space-between;
+    gap: 1rem;
 }
+
 .Adm{
     margin-bottom: 5vh;
     margin: 0%;
     font-size: 2.5vh;
-    color: #3f4141;
+    font-family: var(--font-light);
 }
-.textBienvenida{
-    margin-top: 1vh;
-}
+
 .fotoPerfil{
-    width: 6vw;
-}
-.nombreUsuario{
-    margin: 2vh;
-    margin-top: 2vh;
+    width: 8vw;
+    height: 8vw;
 }

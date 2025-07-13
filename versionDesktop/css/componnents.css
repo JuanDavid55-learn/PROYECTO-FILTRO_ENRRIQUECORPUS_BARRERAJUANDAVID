@@ -1,13 +1,25 @@
 .cajaBoton{
-    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
 }
 
-.boton{
-    width:16rem;
+.boton1 {
+    width:20rem;
     height: 3rem;
-    font-size: 2vh;
+    font-size: var(--font-size-cuerpo);
     border-radius: 5vh;
-    background-color:var(--color-principal) ;
+    background-color:var(--color-principal);
     border:none;
     color: var(--color-fondo1);
+    align-content: center;
+    cursor: pointer;
+
 }
+
+input[type="checkbox"] {
+  display: none;
+}
+
