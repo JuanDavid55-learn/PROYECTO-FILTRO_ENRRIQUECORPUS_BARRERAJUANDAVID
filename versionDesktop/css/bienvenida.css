@@ -1,9 +1,10 @@
 .contenedorBienvenida {
-    display: flex;
+    display: none;
     text-align: center;
     align-content: center;
     font-family: var(--font-cuerpo);
-   
+    position: absolute;
+    z-index: 3;
 }
 
 .bienvenida{

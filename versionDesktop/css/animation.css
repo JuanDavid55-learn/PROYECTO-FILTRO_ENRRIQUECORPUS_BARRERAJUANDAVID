@@ -2,7 +2,6 @@
 .logoKario{
     animation: loading 2s ;
     animation-fill-mode: both;
-
 }
 
 .inicioDeSesion{
@@ -26,54 +25,38 @@
 /*animacion para mensaje de bienvenida*/
 
 #verAnimacion:checked ~ .inicioDeSesion{
-    pointer-events: none;
-    animation: byeLogin 1s ease-in-out forwards ;
-    
+  animation: byeLogin  500ms forwards;  
+  pointer-events: none;
+}
+
+@keyframes byeLogin {
+0%{opacity: 1;
+}
+100%{opacity: 0;}
 }
 
 #verAnimacion:checked ~ .contenedorBienvenida{
   display: flex; 
-  animation: byeBienvenida 1s ease-in-out 3s forwards ;
+  animation: hiBienvenida 5s ease-in forwards ;
 }
 
-/* Mostrar plataforma después de bienvenida con delay */
+@keyframes hiBienvenida {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+#verAnimacion:checked ~ .logoKario{
+  opacity: 0;
+  animation: loading 4s forwards 11s;
+}
+
 #verAnimacion:checked ~ .contenedorInterfaz {
-  
-  animation: fadeIn 1s ease-in-out;
-  animation-delay: 3s;
-  animation-fill-mode: both;
+  display: flex;
+  animation: plataforma 1s ease-in-out 12s forwards;
+  opacity: 0;
 }
 
-
-
-
-@keyframes byeLogin {
-    0% {opacity:1;
-    }
-    100%{opacity:0;}
-}
-
-
-@keyframes byeBienvenida {
-    0% {opacity:1;
-    }
-    100%{opacity:0;}
-}
-
-
-
-
-/*Parpadeo del logo 
-#verAnimacion:checked ~ .pantalla-bienvenida .logo {
-  width: 100px;
-  animation: parpadeo 1s infinite;
-}
-   */
-
-
-
-/* Animaciones 
-@keyframes parpadeo {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
+@keyframes plataforma{
+  0%{opacity:0;}
+  100%{opacity:1;}
+} 

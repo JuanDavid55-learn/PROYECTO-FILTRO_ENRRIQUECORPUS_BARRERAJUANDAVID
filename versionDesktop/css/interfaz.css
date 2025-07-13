@@ -1,16 +1,20 @@
 .contenedorInterfaz {
-    display: none
+    display: none;
+    position: absolute;
+    z-index: 4;
+    width: 100vw;
+    height: 100vh;
 }
 
-.todooo{
-    background-color: white;
-    width: 99vw;
-    height: 99vh;
-    border: 5px solid gray;
+.interfaz{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-fondo1);
     font-size: 2vh;
     text-align: center;
     justify-content: center;
 }
+
 .arribita{
     width: 100%;
     height: 7vh;

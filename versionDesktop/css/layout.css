@@ -12,6 +12,7 @@ body{
 
 .contenedorDePagina{
     display: flex;
+    flex-direction: column;
     background-image: url('../img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +30,7 @@ body{
     height: 11rem;
     width: 12rem;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 /*iniciar sesion*/
@@ -40,7 +41,7 @@ body{
 }
 
 .inicioDeSesion {
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: white;
     width: 48.6rem;
