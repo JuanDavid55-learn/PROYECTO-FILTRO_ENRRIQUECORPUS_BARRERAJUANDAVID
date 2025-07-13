@@ -310,6 +310,7 @@ body{
     flex-direction: row;
     margin-left: 10vh;
     justify-content: space-around;
+    margin-bottom: 2vh;
 }
 .controles{
     width: 18vh;
@@ -338,5 +339,11 @@ body{
     margin-top: 0.5vh;
 }
 .verificacion{
+    display: flex;
+    flex-direction: column;
     margin-right: 18vh;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
 }
