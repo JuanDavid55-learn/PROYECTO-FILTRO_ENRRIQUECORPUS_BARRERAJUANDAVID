@@ -1,5 +1,5 @@
 .contenedorBienvenida {
-    display: none;
+    display:flex;
     text-align: center;
     align-content: center;
     font-family: var(--font-cuerpo);
@@ -10,8 +10,10 @@
 .bienvenida{
 
     background-color: var(--color-fondo1);
-    width: 48.6rem;
-    height: 30rem;
+    width: 50vw;
+    min-width: 30rem;
+    height: 67vh;
+    min-height: 30rem;
     border-radius: 8vh;
     font-size: 2vh;
 

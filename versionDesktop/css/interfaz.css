@@ -1,5 +1,5 @@
 .contenedorInterfaz {
-    display: block;
+    display: none;
     position: absolute;
     z-index: 4;
     width: 100vw;

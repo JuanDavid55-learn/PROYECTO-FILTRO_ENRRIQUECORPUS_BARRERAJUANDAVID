@@ -28,8 +28,8 @@ body{
 /*intro*/
 .logoKario{
     display: flex;
-    height: 11rem;
-    width: 12rem;
+    height: 23vh;
+    width: 24vh;
     position: absolute;
     z-index: 1;
 }
@@ -37,23 +37,29 @@ body{
 /*iniciar sesion*/
 
 .logoMedia {
-    width: 6rem;
-    height: 8rem;
+    width: 20vh;
+    height: 20vh;
 }
 
 .inicioDeSesion {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    width: 48.6rem;
-    height: 37.5rem;
+    background-color: var(--color-fondo1);
+
+    width: 50vw;
+    min-width: 30rem;
+    height: 80vh;
+    min-height: 40rem;
+
     border-radius: 67px;
     justify-items: center;
     text-align: center;
+    
     opacity: 0;
     position: relative;
     z-index: 2;
     align-content: center;
+
 }
 
 .contenedorDeIS{
@@ -64,9 +70,9 @@ body{
     align-items: center;
     gap: 0.5rem;
     padding-top: 1rem;
-}
+}   
 
-.contenedorDeIS h2 {
+ .tituloIL{
     font-size: var(--font-size-titulo);
 }
 
@@ -86,7 +92,7 @@ body{
 
 .formulario{
     align-items: center;
-   
+
 }
 
 .usuarioYContrasena{
@@ -98,8 +104,9 @@ body{
 .usuarioYContrasena input {
     display: flex;
     flex-direction: column;
-    width: 35rem;   
-    height: 2rem;
+    width: 42vw;   
+    min-width: 28rem;
+    height: 4vh;
     border: 1px solid var(--color-font-2);
     border-radius: 0.8rem;
 }
@@ -112,7 +119,7 @@ body{
 
 .casilla label {
     font-family: var(--font-light);
-    font-size: 1.4rem;
+    font-size: 3vh;
     padding-left: 0.5rem;
 }
 

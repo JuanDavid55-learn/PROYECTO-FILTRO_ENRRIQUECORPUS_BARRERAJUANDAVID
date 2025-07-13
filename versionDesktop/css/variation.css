@@ -1,5 +1,4 @@
 :root{
-
     --color-principal: #FF7221 ;
     --color-secundario:#707070;;
     --color-fondo1: #ffffff;
@@ -9,8 +8,8 @@
     --font-titulo:'Myriad Pro Bold' ;
     --font-cuerpo:'Myriad Pro Regular';
     --font-light: 'Myriad Pro Light';
-
-    --font-size-titulo: 2.5rem;
-    --font-size-cuerpo: 1.2rem ;
-    --font-size-light: 0.8rem;
+    --font-size-cuerpo: 2.4vh;
+    --font-size-light: 2vh;
+    --font-size-titulo: 5vh;
+    
 }
