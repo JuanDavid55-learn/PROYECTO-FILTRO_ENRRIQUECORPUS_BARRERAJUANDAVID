@@ -1,0 +1,60 @@
+@media (max-width: 393px) {
+  .interfaz {
+    font-size: 1.4vh;
+    padding: 1rem;
+  }
+
+  .encabezadoGrid {
+    display: none; /* Ocultamos el encabezado para móviles */
+  }
+
+  .infoIndicadores {
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .bordeIndicador {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+
+  .bordeIndicador > div {
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+
+  .imgrayitas {
+    display: none;
+  }
+
+  .portj {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .cumplimiento {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  .PANEL {
+    font-size: 3vh;
+  }
+
+  .panel {
+    font-size: 2vh;
+  }
+
+  .botonAñadir {
+    width: 80%;
+    font-size: 1.8vh;
+  }
+}

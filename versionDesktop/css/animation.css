@@ -1,4 +1,4 @@
-
+/*
 .logoKario{
     animation: loading 2s ;
     animation-fill-mode: both;
@@ -23,7 +23,7 @@
 }
 
 /*animacion para mensaje de bienvenida*/
-
+/*
 #verAnimacion:checked ~ .inicioDeSesion{
   animation: byeLogin  500ms forwards;  
   pointer-events: none;

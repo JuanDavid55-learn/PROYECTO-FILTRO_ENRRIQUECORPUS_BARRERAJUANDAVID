@@ -5,3 +5,7 @@
 @import url(./componnents.css);
 @import url(./bienvenida.css);
 @import url(./interfaz.css);
+
+/*version movil*/
+
+@import url(../css/layout.css);
