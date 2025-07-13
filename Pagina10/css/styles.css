@@ -191,5 +191,33 @@ body{
     border:none;
     color: black;
     margin: 2vh;
+    
     margin-bottom: 2vh;
+}
+.desplegar {
+  position: relative;
+  display: inline-block;
+}
+.contenido {
+  display: none;
+  border: 0.1vh solid #737575;
+  border-radius: 2vh;
+  position: absolute;
+  background-color: white;
+  min-width: 30vh;
+  min-height: auto;
+  z-index: 1;
+  right: 0vh;
+}
+.contenido a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 1vh;
+}
+.contenido a:hover {
+  background-color: #ddd;
+}
+.desplegar:hover .contenido {
+  display: block;
 }
