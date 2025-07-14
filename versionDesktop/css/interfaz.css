@@ -233,3 +233,7 @@
     height: 10vh;
     margin-top: 1rem;
 }
+
+.movil{
+    display: none;
+}
