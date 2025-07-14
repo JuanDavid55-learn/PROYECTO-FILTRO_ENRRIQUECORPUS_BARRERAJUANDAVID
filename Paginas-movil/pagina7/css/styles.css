@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0%;
+    width: 430px;
+    height: 932px;
+    text-align: center;
+}
+.principal{
+    width: 100%;
+    height: 100%;
+    font-size: 1vh;
+}
+.encabezadoPerfil{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgconf{
+    width: 2vh;
+}
+.imgnotif{
+    width: 2vh;
+}
+.fotoPedrito{
+    width: 3vh;
+}
+.fotopp{
+    width: 5vh;
+}
+.text1{
+    font-size: 1.4vh;
+    margin-top: 3vh;
+    margin-bottom: 1vh
+}
+.text2{
+    margin-top: 1vh;
+    margin-bottom: 2vh
+}
+.indicadores{
+    display: flex;
+    flex-direction: column;
+}
+.elemento{
+    background-color: #c6c9c9;
+    height: 2.4vh;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    align-content: center;
+}
+#añade{
+    color: #4b4d4d;
+}
+p{
+    margin: 0%;
+}
+.opciones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    border-top: 1px solid black;
+}
+.imgOPC{
+    height: 2vh;
+    margin-top: 1vh;
+}
