@@ -1,0 +1,177 @@
+@media (max-width: 393px) {
+  /*dom*/
+  *{
+    box-sizing: border-box;
+  }
+
+  .contenedorDePagina{
+    display: flex;
+    background-size: 70rem 40rem;
+    background-position: center;
+  }
+
+  /*intro*/
+  .logoKario{
+      display: flex;
+      height: 8vh;
+      width: 9vh;
+      position: absolute;
+      z-index: 1;
+  }
+
+  /*iniciar sesion*/
+
+  .logoMedia {
+      width: 10vh;
+      height: 10vh;
+  }
+
+  .inicioDeSesion {
+      display: flex;
+      flex-direction: column;
+
+      background-color: var(--color-fondo1);
+
+      width: 80vw;
+      min-width: 0;
+
+      height: 65vh;
+      min-height: 0;
+
+      border-radius: 30px;
+
+      justify-items: center;
+      text-align: center;
+      align-content: center;
+
+
+      opacity: 0;
+      position: relative;
+      z-index: 2;
+    
+  }
+
+.contenedorDeIS{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}   
+
+ .tituloIL{
+    font-size: 3vh;
+}
+
+
+.contenedorDeIS p {
+    font-family: var(--font-light);
+     
+}
+  
+.infoLogin{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.parrafo1{
+    text-align: center;
+    font-size: 1.8vh;}  
+
+
+.formulario{
+  display: flex;
+    align-items: center;
+}
+
+.usuarioYContrasena input {
+    display: flex;
+    flex-direction: column;
+
+    width: 70vw;   
+    min-width:0;
+    height: 4vh;
+    border: 1px solid var(--color-font-2);
+    border-radius: 0.8rem;
+}
+
+.casilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casilla label {
+    font-family: var(--font-light);
+    font-size: 2.3vh;
+    padding-left: 0.5rem;
+    
+}
+
+.asistenciaTecnica{
+  font-size:1.5vh;
+  width: 80%;
+
+}
+
+
+/*bienvenida*/
+.contenedorBienvenida {
+    display: none;
+    text-align: center;
+    align-content: center;
+    font-family: var(--font-cuerpo);
+    position: absolute;
+    z-index: 3;
+}
+
+.bienvenida{
+
+    background-color: var(--color-fondo1);
+    width: 80vw;
+    min-width: 0;
+    height: 45vh;
+    min-height: 0;
+    border-radius: 37px;
+
+    font-size: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.logoMedia2 { 
+    width: 8vh;
+    height:8vh;
+}
+
+.Bienvenida1{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    justify-items: center;
+    align-content: space-between;
+    gap: 1rem;
+}
+
+.Adm{
+    margin-bottom: 5vh;
+    margin: 0%;
+    font-size: 2vh;
+    font-family: var(--font-light);
+}
+
+.fotoPerfil{
+    width: 15vw;
+    height: 15vw;
+}
+
+}

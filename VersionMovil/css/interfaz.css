@@ -1,0 +1,44 @@
+@media (max-width: 393px) {
+    
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorInterfaz{
+    display: none;
+}
+
+.contenedorInterfazMovil{
+    display: flex;
+    position: relative;
+    z-index: 4;
+    width: 393px;;
+    height: 100vh;
+}
+
+.interfazMovil{
+    width: 393px;
+    height: 100vh;
+    background-color: var(--color-fondo1);
+    font-size: 2vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.headerMovil{
+    width: 393px;
+    height: 7vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    margin-right: 20rem;
+}
+
+
+
+
+}

@@ -1,0 +1,52 @@
+.contenedorBienvenida {
+    display:none;
+    text-align: center;
+    align-content: center;
+    font-family: var(--font-cuerpo);
+    position: absolute;
+    z-index: 3;
+}
+
+.bienvenida{
+
+    background-color: var(--color-fondo1);
+    width: 50vw;
+    min-width: 30rem;
+    height: 67vh;
+    min-height: 30rem;
+    border-radius: 8vh;
+    font-size: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.logoMedia2 { 
+    width: 13vh;
+    height:12vh;
+}
+
+.Bienvenida1{
+    display: flex;
+    flex-direction: column;
+    font-size: 5vh;
+    justify-items: center;
+    align-content: space-between;
+    gap: 1rem;
+}
+
+.Adm{
+    margin-bottom: 5vh;
+    margin: 0%;
+    font-size: 2.5vh;
+    font-family: var(--font-light);
+}
+
+.fotoPerfil{
+    width: 8vw;
+    height: 8vw;
+}
