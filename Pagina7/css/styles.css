@@ -244,13 +244,13 @@ body{
     width: 14vw;
     height: 5vh;
     font-size: 2vh;
-    border-radius: 1vh;
-    background-color: gray;
+    border-radius: 5vh;
+    background-color:#ff741c ;
     border:none;
-    color: black;
+    color: white;
     margin-top: 2vh;
 }
-.OPCeliminar{
+.imgrayitas{
     width: 3vh;
 }
 .portj{
