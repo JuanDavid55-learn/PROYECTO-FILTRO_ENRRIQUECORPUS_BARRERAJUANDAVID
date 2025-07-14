@@ -1,5 +1,5 @@
 .contenedorInterfaz {
-    display: none;
+    display: flex;
     position: absolute;
     z-index: 4;
     width: 100vw;
@@ -172,14 +172,32 @@
     grid-column-start:2;
     grid-column-end: 3;
     align-content: center;
+    cursor: pointer;
 }
 
 .imgPorcentaje{
     width:6vh ;
     height:6vh ;
     margin-top: 0.4rem;
-
 }
 
+.asegurar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    justify-content: space-around;
+    margin-top: 2rem;
+    align-content: center;
+}
+
+
+#encabezado{
+    margin-right:1rem ;
+}
+
+#seleccionadoEliminar{
+    border:0.5vh solid orangered;
+    background-color: #fff4e4;
+}
 
 
