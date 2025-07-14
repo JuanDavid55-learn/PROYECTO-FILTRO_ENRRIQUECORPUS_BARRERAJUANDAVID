@@ -1,4 +1,4 @@
-/*
+
 .logoKario{
     animation: loading 2s ;
     animation-fill-mode: both;
@@ -23,7 +23,7 @@
 }
 
 /*animacion para mensaje de bienvenida*/
-/*
+
 #verAnimacion:checked ~ .inicioDeSesion{
   animation: byeLogin  500ms forwards;  
   pointer-events: none;
@@ -60,3 +60,19 @@
   0%{opacity:0;}
   100%{opacity:1;}
 } 
+
+#reset:checked ~ .contenedorInterfaz {
+  animation: refrescar 2s ease-in-out forwards; 
+
+}
+
+@keyframes refrescar{
+  0%{
+    opacity: 0;
+  }
+  100%{opacity: 1;}
+}
+
+#reset:checked ~ .inicioDeSesion {
+  display: none;
+}

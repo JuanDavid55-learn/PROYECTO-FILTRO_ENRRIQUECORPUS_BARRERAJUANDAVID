@@ -1,6 +1,6 @@
 @font-face {
     font-family: Myrad_pro;
-    src: url(../MyradPro/elquevoyausar.ttf);
+    src: url('../../versionDesktop/font/MYRIADPRO-REGULAR.woff');
 }
 *{
     font-family: Myrad_pro;
@@ -172,4 +172,10 @@
     flex-direction: column;
     align-content: center;
     text-align: center;
+}
+
+.fotopp{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 1rem;
 }

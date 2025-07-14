@@ -18,7 +18,7 @@
 
         <img src="./versionDesktop/img/logoKario.png" alt="" class="logoKario">    
 
-
+        <input type="checkbox" id="reset">
         <div class="inicioDeSesion">
 
             <div class="contenedorDeIS">
@@ -93,18 +93,25 @@
                     <div class="A-R-E">
 
                         <div class="añadir">
-                            <img src="./versionDesktop/img/añadir.png" alt="" class="imgañadir">
-                            <p>Añadir</p>
+                            <a href="./añadir/añadir.html">
+                                <img src="./versionDesktop/img/añadir.png" alt="" class="imgañadir">
+                             <p>Añadir</p>
+                            </a>
                         </div>
 
                         <div class="resetear">
-                            <img src="./versionDesktop/img/resetear.png" alt="" class="imgresetear">
-                            <p>Resetear</p>
+                            <a href="./index.html">
+                                <label for="reset"><img src="./versionDesktop/img/resetear.png" alt="" class="imgresetear"></label>
+
+                            <label for="reset">Resetear</label></a> 
+                            </a>
+                            
                         </div>
 
+
                         <div class="eliminar">
-                            <img src="./versionDesktop/img/eliminar.png" alt="" class="imgeliminar">
-                            <p>Eliminar</p>
+                            <a href="./eliminar/eliminar.html"><img src="./versionDesktop/img/eliminar.png" alt="" class="imgeliminar">
+                            <p>Eliminar</p></a>
                         </div>
 
                     </div>
@@ -116,24 +123,44 @@
                     <div class="R-A">
 
                         <div class="reportar">
-                            <img src="./versionDesktop/img/reportar.png" alt="" class="imgreportar">
-                            <p>Reportar</p>
+                           <a href="./reportar/reportar.html"><img src="./versionDesktop/img/reportar.png" alt="" class="imgreportar">
+                            <p>Reportar</p></a>
                         </div>
 
                         <div class="ayuda">
-                            <img src="./versionDesktop/img/ayuda.png" alt="" class="imgayuda">
-                            <p>Ayuda</p>
+                            <a href="./ayuda/ayuda.html"><img src="./versionDesktop/img/ayuda.png" alt="" class="imgayuda">
+                            <p>Ayuda</p></a>
                         </div>
 
                     </div>
-
                     <div class="masopciones">
-                        <img src="./versionDesktop/img/configuraciones.png" alt="" class="imgconf">
-                        <img src="./versionDesktop/img/notificaciones.png" alt="" class="imgnotif">
-                        <img src="./versionDesktop/img/perfildepedrito.png" alt="" class="fotoPedrito">
+                        <div class="desplegar">
+                            <img src="./reportar/img/configuraciones.png" alt="" class="imgconf">
+                            <div class="contenido">
+                                <a href="#">Herramientas</a>
+                                <a href="#">Ajustes</a>
+                            </div>
+                        </div>
+                        <div class="desplegar">
+                            <img src="./reportar/img/notificaciones.png" alt="" class="imgnotif">
+                            <div class="contenido">
+                                <a href="#">0 notificaciones</a>
+                            </div>
+                        </div>
+                        <div class="desplegar">
+                            <img src="./reportar/img/perfildepedrito.png" alt="" class="fotoPedrito">
+                            <div class="contenido">
+                                <img src="./reportar/img/perfildepedrito.png" alt="" class="fotopp">
+                                <a href="#">Administrar cuenta</a>
+                                <a href="#">Personalizar perfil</a>
+                                <a href="#">Sincronizar</a>
+                                <a href="./index.html">Cerrar sesión</a>
+                            </div>
+                        </div>
                     </div>
 
                 </header>
+
 
                 <div class="tituloInterfaz">
                     <h2 class="PANEL">Panel de Indicadores</h2>

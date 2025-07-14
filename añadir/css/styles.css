@@ -1,6 +1,6 @@
 @font-face {
     font-family: Myrad_pro;
-    src: url(../MyradPro/elquevoyausar.ttf);
+    src: url('../../versionDesktop/font/MYRIADPRO-REGULAR.woff');
 }
 
 *{
@@ -234,4 +234,10 @@
 }
 .desplegar:hover .contenido {
   display: block;
+}
+
+.fotopp{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 1rem;
 }

@@ -24,7 +24,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-/*Interfaz*/
+/*Interfaz encabezado*/
 
 .A-R-E{
     display: flex;
@@ -38,21 +38,50 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: row;
 }
+
 .añadir{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+a:visited {
+  color: black;
+}
+
+.añadir a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+
 }
 .resetear{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
+.resetear a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
 .eliminar{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
+.eliminar a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
 .logo{
     display: flex;
     flex-direction: row;
@@ -63,10 +92,22 @@ input[type="checkbox"] {
     flex-direction: row;
     align-items: center;
 }
+.reportar a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
 .ayuda{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.ayuda a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
 }
 .masopciones{
     display: flex;
