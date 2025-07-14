@@ -1,0 +1,206 @@
+
+/*iniciar sesion*/
+.cajaBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.boton1 {
+    width:20rem;
+    height: 3rem;
+    font-size: var(--font-size-cuerpo);
+    border-radius: 20px;
+    background-color:var(--color-principal);
+    border:none;
+    color: var(--color-fondo1);
+    align-content: center;
+    cursor: pointer;
+
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/*Interfaz encabezado*/
+
+.A-R-E{
+    display: flex;
+    flex-direction: row;
+}
+.R-A{
+    display: flex;
+    flex-direction: row;
+}
+.masopciones{
+    display: flex;
+    flex-direction: row;
+}
+
+.añadir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.añadir a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+
+}
+.resetear{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.resetear a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.eliminar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.eliminar a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reportar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reportar a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.ayuda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ayuda a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.masopciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgañadir{
+    width: 3vh;
+    margin-left: 21vh;
+    margin-right: 1vh;
+}
+.imgresetear{
+    width: 2.6vh;
+    margin-left: 12vh;
+    margin-right: 1vh;
+}
+.imgeliminar{
+    width: 2.4vh;
+    margin-left: 12vh;
+    margin-right: 1vh;
+}
+.logito{
+    width: 5vh;
+
+}
+.imgreportar{
+    width: 2.8vh;
+    margin-right: 1vh;
+}
+.imgayuda{
+    width: 3vh;
+    margin-right: 1vh;
+    margin-left: 15vh;
+}
+.imgconf{
+    width: 2vh;
+    margin-right: 2.2vh;
+    margin-left: 2vh;
+}
+.imgnotif{
+    width: 2vh;
+    margin-right: 2.2vh;
+}
+.fotoPedrito{
+    width: 4vh;
+    margin-right: 2vh;
+}
+
+.cajaBoton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.boton2 {
+    width:10vh;
+    width: 14vw;
+    height: 5vh;
+    font-size: var(--font-size-cuerpo);
+    border-radius: 5vh;
+    background-color:var(--color-principal);
+    border:none;
+    color: var(--color-fondo1);
+    align-content: center;
+    cursor: pointer;
+    font-family: var(--font-light);
+}
+
+/*eliminar*/
+
+.botonAceptar{
+    width: 12vh;
+    height: 3.4vh;
+    font-size: 2vh;
+    border-radius: 1vh;
+    background-color:#ff741c ;
+    border:none;
+    color: black;
+    margin-top: 0.5vh;
+}
+
+.botonCan{
+    width: 12vh;
+    height: 3.4vh;
+    font-size: 2vh;
+    border-radius: 1vh;
+    background-color: gray;
+    border:none;
+    color: black;
+    margin-top: 0.5vh;
+}
