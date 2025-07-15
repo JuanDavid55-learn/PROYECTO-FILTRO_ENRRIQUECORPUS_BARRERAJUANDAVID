@@ -1,0 +1,170 @@
+@media (max-width: 430px) {
+
+
+    body {
+        margin: 0;
+        padding: 0%;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        font-family: var(--font-cuerpo);
+
+    }
+
+    .contenedorInterfaz {
+        display: none;
+    }
+
+    .versionMovil {
+        position: absolute;
+        z-index: 5;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .versionMovil {
+        display: none;
+        flex-direction: column;
+        font-size: 2vh;
+        background-color: white;
+
+    }
+
+    .encabezadoPerfil {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid black;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 0.6rem;
+        height: 2.8rem ;
+    }
+
+    .encabezadoPerfil img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .imgconf1 {
+        width: 2vh;
+    }
+
+    .imgnotif1 {
+        width: 2vh;
+    }
+
+    .fotoPedrito1 {
+        width: 3vh;
+    }
+
+    .fotopp1 {
+        width: 5vh;
+    }
+
+    .text-1 {
+        font-size: 3vh;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+        font-family: var(--font-titulo);
+    }
+
+    .text-2 {
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+    }
+
+    .indicadores1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .elemento {
+        background-color: var(--color-font-2);
+        height: 2rem;
+        margin-bottom: 5px;
+        align-content: center;
+        width: 20rem;
+    }
+
+    #añade {
+        color: #4b4d4d;
+    }
+
+    p {
+        margin: 0%;
+    }
+
+    .opciones1 {
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid black;
+
+    }
+
+    .imgOPC1 {
+        height: 2vh;
+        margin-top: 1vh;
+    }
+
+ .desplegar1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  .contenido,
+  .contenido1 {
+    display: none;
+    border: 0.1vh solid #737575;
+    border-radius: 2vh;
+    position: absolute;
+    background-color: white;
+    min-width: 30vh;
+    z-index: 1;
+    right: 0vh;
+  }
+
+  .contenido a,
+  .contenido1 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 1vh;
+  }
+
+  .contenido a:hover,
+  .contenido1 a:hover {
+    background-color: white;
+  }
+
+
+
+  .desplegar1:hover > .contenido,
+  .desplegar1:hover > .contenido1 {
+    display: block;
+  }
+
+.contenido1 {
+  right: -13vh;
+}
+
+.indicadores1 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;   
+  overflow-y: auto;      
+  padding: 1vh;
+  gap: 0.3rem;
+  align-items: center;
+  margin-top: 3rem;
+
+}
+
+.opciones1 img {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+}
+

@@ -1,0 +1,18 @@
+@media (max-width: 430px) {
+
+#verAnimacion:checked ~ .contenedorInterfaz {
+  display: none;
+}
+
+#verAnimacion:checked ~ .versionMovil {
+  display: flex;
+  animation: movil 1s ease-in-out 12s forwards;
+  opacity: 0;
+}
+
+@keyframes movil{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+
+}

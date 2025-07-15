@@ -6,6 +6,10 @@
     font-family: var(--font-cuerpo);
 }
 
+.versionMovil{
+    display: none;
+}
+
 body{
     background-color: #000000;
 }

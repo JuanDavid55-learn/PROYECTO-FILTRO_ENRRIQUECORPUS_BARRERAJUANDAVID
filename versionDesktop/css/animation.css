@@ -1,7 +1,7 @@
 
 .logoKario{
     animation: loading 2s ;
-    animation-fill-mode: both;
+    animation-fill-mode: forwards;
 }
 
 .inicioDeSesion{
@@ -47,7 +47,7 @@
 
 #verAnimacion:checked ~ .logoKario{
   opacity: 0;
-  animation: loading 4s forwards 11s;
+  animation: loading 4s forwards 12s;
 }
 
 #verAnimacion:checked ~ .contenedorInterfaz {
