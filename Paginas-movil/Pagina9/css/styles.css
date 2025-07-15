@@ -38,15 +38,42 @@ body{
     margin-bottom: 1.5rem;
 }
 .indicadores{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#c2{
+    width: 1rem;
+    margin: 1rem;
+}
+#c4{
+    width: 1rem;
+    margin: 1rem;
+}
+#c6{
+    width: 1rem;
+    margin: 1rem;
+}
+#c8{
+    width: 1rem;
+    margin: 1rem;
+}
+#c10{
+    width: 1rem;
+    margin: 1rem;
+}
+#c12{
+    width: 1rem;
+    margin: 1rem;
 }
 .elemento{
     background-color: #c6c9c9;
+    width: 18rem;
     height: 3.8rem;
     margin-bottom: 0.3rem;
     border-radius: 5px;
     align-content: center;
+    margin-left: 4rem;
+    text-align: start;
 }
 #añade{
     color: #2a2a2a;
@@ -54,11 +81,19 @@ body{
 p{
     margin: 0%;
 }
+.botonCan{
+    width: 6rem;
+    height: 2rem;
+    background-color: gray;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 3rem
+}
 .opciones{
     display: flex;
     height: 4rem;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 6rem;
     border-top: 1px solid black;
 }
 .imgOPC{

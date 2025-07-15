@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0%;
+    width: 430px;
+    height: 932px;
+    text-align: center;
+}
+.principal{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+.encabezadoPerfil{
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgconf{
+    width: 3.5rem;
+}
+.imgnotif{
+    width: 3.5rem;
+}
+.fotoPedrito{
+    width: 4.5rem;
+}
+.text1{
+    font-size: 2.2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+.text2{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.indicador{
+    display: flex;
+    flex-direction: row;
+}
+#c2{
+    width: 1rem;
+    margin: 1rem;
+}
+#title{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.elemento{
+    display: flex;
+    width: 18rem;
+    height: 3.8rem;
+    margin-bottom: 0.3rem;
+    border-radius: 1rem;
+    border: 3px solid black;
+    align-content: center;
+    margin-left: 4rem;
+    text-align: start;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0%;
+}
+.dataEliminar{
+    display: flex;
+    flex-direction: column;
+    height:9rem ;
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+.D-A{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.C-FI-FT{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.t2{
+    font-size: 1.1rem;
+    color: #464545;
+}
+.textEliminar{
+    width: 22rem;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+}
+.escribe{
+    margin-top: 2rem;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.botonAceptar{
+    width: 6rem;
+    height: 2rem;
+    background-color: #FF7221;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 0.3rem
+}
+.botonCan{
+    width: 6rem;
+    height: 2rem;
+    background-color: gray;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 0.3rem
+}
+.opciones{
+    display: flex;
+    height: 4rem;
+    justify-content: space-around;
+    margin-top: 3rem;
+    border-top: 1px solid black;
+}
+.imgOPC{
+    height: 3rem;
+    margin-top: 1.5rem;
+}
