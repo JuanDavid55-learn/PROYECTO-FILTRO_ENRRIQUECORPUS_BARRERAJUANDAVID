@@ -1,11 +1,9 @@
-
 body{
     margin: 0;
     padding: 0%;
     width: 430px;
     height: 932px;
     text-align: center;
-    font-family: 'Myriad Pro Regular';
 }
 .principal{
     width: 100%;
@@ -30,40 +28,67 @@ body{
 .fotoPedrito{
     width: 4.5rem;
 }
-.text1{
-    font-size: 2.2rem;
-    margin-top: 3.5rem;
-    margin-bottom: 1.5rem;
-}
-.text2{
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
 .indicadores{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .elemento{
     background-color: #c6c9c9;
+    width: 20rem;
     height: 3.8rem;
+    margin-top: 2rem;
     margin-bottom: 0.3rem;
     border-radius: 5px;
     align-content: center;
 }
-#añade{
-    color: #2a2a2a;
-}
 p{
     margin: 0%;
 }
+.imgporcentaje{
+    width: 8rem;
+}
+.dataindicador{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.fechas{
+    display: flex;
+    flex-direction: column;
+}
+.fin{
+    margin-top: 2rem;
+}
+.textDescripcion{
+    text-align: start;
+    width: 26rem;
+    margin-left: 1rem;
+}
+.C-F-F-A{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.c-f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.f-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
 .opciones{
     display: flex;
-    height: 4rem;
+    height: 0;
     justify-content: space-around;
     margin-top: 5rem;
     border-top: 1px solid black;
 }
 .imgOPC{
     height: 3rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }

@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0%;
+    width: 430px;
+    height: 932px;
+    text-align: center;
+}
+.principal{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+.encabezadoPerfil{
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgconf{
+    width: 3.5rem;
+}
+.imgnotif{
+    width: 3.5rem;
+}
+.fotoPedrito{
+    width: 4.5rem;
+}
+.text1{
+    font-size: 2.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+.formAñadir{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.5rem;
+}
+.añadircontenido{
+    text-align: start;
+}
+.controles{
+    width: 18.4rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+}
+.controlD{
+    width: 18.4rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+}
+p{
+    margin: 0%;
+}
+.opciones{
+    display: flex;
+    height: 4rem;
+    justify-content: space-around;
+    margin-top: 2.8rem;
+    border-top: 1px solid black;
+}
+.imgOPC{
+    height: 3rem;
+    margin-top: 0.8rem;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.botonAñadir{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+    background-color:#ff741c ;
+    border:none;
+    color: black;
+}
+.botonCancelar{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+    background-color: gray;
+    border:none;
+    color: black;
+    margin-left: 1rem;
+}

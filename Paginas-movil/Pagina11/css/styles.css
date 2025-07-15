@@ -1,11 +1,9 @@
-
 body{
     margin: 0;
     padding: 0%;
     width: 430px;
     height: 932px;
     text-align: center;
-    font-family: 'Myriad Pro Regular';
 }
 .principal{
     width: 100%;
@@ -32,38 +30,34 @@ body{
 }
 .text1{
     font-size: 2.2rem;
-    margin-top: 3.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
 }
-.text2{
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
-.indicadores{
+.opcsAyuda{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
 }
-.elemento{
-    background-color: #c6c9c9;
-    height: 3.8rem;
-    margin-bottom: 0.3rem;
-    border-radius: 5px;
-    align-content: center;
-}
-#añade{
-    color: #2a2a2a;
-}
-p{
-    margin: 0%;
+.boton{
+    width: 20rem;
+    height: 4rem;
+    margin-top: 2rem;
+    background-color:#ff741c ;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
 }
 .opciones{
     display: flex;
     height: 4rem;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 20rem;
     border-top: 1px solid black;
 }
 .imgOPC{
     height: 3rem;
-    margin-top: 1.5rem;
+    margin-top: 0.8rem;
 }
